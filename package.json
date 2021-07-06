@@ -1,0 +1,30 @@
+{
+    "name": "client",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "format": "npx prettier --write ."
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-autosave": "^28.0.0",
+        "@ckeditor/ckeditor5-build-classic": "^28.0.0",
+        "axios": "^0.21.1",
+        "next": "11.0.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "@types/react": "17.0.13",
+        "autoprefixer": "^10.2.6",
+        "eslint": "7.30.0",
+        "eslint-config-next": "11.0.1",
+        "eslint-config-prettier": "^8.3.0",
+        "postcss": "^8.2.13",
+        "prettier": "^2.3.2",
+        "tailwindcss": "^2.2.4",
+        "typescript": "4.3.5"
+    }
+}
